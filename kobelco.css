@@ -1,4 +1,7 @@
-
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
 .header{
     position: relative;
     margin-bottom: 0px;
@@ -6,7 +9,7 @@
 }
 
 .header-top{
-    width: 1349px;
+    width: 100%;
     height: 100px;
     background-color: rgb(0, 167, 172);
     color: rgb(226, 226, 226);
@@ -51,7 +54,7 @@
     margin-top: -10px;
     background-color: rgb(22, 22, 22);
     color:rgb(226, 226, 226);
-    width: 1349px;
+    width: 100%;
     height: 50px;
     font-size: 12px;
     font-weight: 700;
@@ -126,12 +129,12 @@
 }
 
 .thumbnail{
-    width:1349px;
+    width:100%;
     object-fit: cover;
 }
 .text1-block{
     display:block;
-    width:1349p;
+    width:100%;
     margin-top: 70px;
 
 }
@@ -331,6 +334,10 @@ text-align: center;
 }
 .thumbnail5-column1{
   background-color: rgb(22, 22, 22);
+  
+}
+.thumbnail5-column1-s1{
+    width: 100%;
 }
 .thumbnail5-column1-s2{
     
@@ -364,6 +371,9 @@ text-align: center;
 .thumbnail5-column2{
     background-color:rgb(226,226,226);
 }
+.thumbnail5-column2-s1{
+    width: 100%;
+}
 .thumbnail5-column2-s2{
     color: rgb(22, 22, 22);
     font-size: 24px;
@@ -395,7 +405,9 @@ text-align: center;
 .thumbnail5-column3{
     background-color: rgb(22, 22, 22);
 }
-
+.thumbnail5-column3-s1{
+    width: 100%;
+}
 .thumbnail5-column3-s2{
     color:rgb(226, 226, 226);
     font-size: 24px;
@@ -520,7 +532,7 @@ text-align: center;
 .thumbnail6-column2-s4{
     display:inline-block;
     margin-top: 20px;
-    margin-left:70px;
+    margin-left:40px;
     font-size: 18px;
     font-weight: 700;
     color:rgb(226, 226, 226);
@@ -534,7 +546,7 @@ text-align: center;
 .thumbnail7{
     position:relative;
     height:394px;
-    width:1349px;
+    width:100%;
     background-color: rgb(22, 22, 22);
     margin-top: 50px;
 }
@@ -586,7 +598,7 @@ text-align: center;
 }
 .footerA{
     height:300px;
-    width: 1349px;
+    width: 100%;
     background-color: rgb(0, 167, 172);
     color:rgb(226, 226, 226); 
     font-size: 18px;
@@ -620,7 +632,7 @@ text-align: center;
 }
 .footerB{
     height:75px;
-    width: 1349px;
+    width: 100%;
     background-color: rgb(9, 151, 156);
     color:rgb(226, 226, 226); 
     font-size: 14px;
